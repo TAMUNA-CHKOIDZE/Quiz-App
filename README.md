@@ -34,7 +34,7 @@ git clone https://github.com/TAMUNA-CHKOIDZE/Quiz-App.git
 cd Quiz-App
 ```
 
-````
+---
 
 ### 2. Install dependencies
 
@@ -42,7 +42,11 @@ cd Quiz-App
 npm install
 ```
 
+---
+
 ### 3. Start the development server
+
+--- 
 
 ```bash
 npm start
@@ -86,7 +90,7 @@ Quiz-App/
 - React
 - JavaScript
 - gh-pages
-- react-confetti
+- react-confetti (for confetti celebration 🎉)
 
 ---
 
@@ -94,6 +98,4 @@ Quiz-App/
 
 This project is open source and free to use.
 
-```
 
-````
