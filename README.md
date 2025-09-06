@@ -1,12 +1,102 @@
-# React + Vite
+## ✅ სტანდარტული და მარტივი `README.md` სტრუქტურა (შენი Quiz App-ისთვის)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+აქ არის მინიმალისტური და ამავდროულად პროფესიული ვერსია:
 
-Currently, two official plugins are available:
+````markdown
+# Quiz App 🎯
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple quiz application built with **React**.  
+Users can answer 5 multiple choice questions, and if all answers are correct, a confetti animation will celebrate the success. 🎉
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔗 Live Demo
+
+👉 [Click here to try the quiz](https://tamuna-chkoidze.github.io/Quiz-App/)
+
+> Replace the above URL with your actual deployed GitHub Pages link
+
+---
+
+## ✨ Features
+
+- 5 easy quiz questions
+- Multiple choice answers
+- Instant feedback (correct / wrong)
+- Score tracking
+- Confetti celebration on perfect score 🎊
+
+---
+
+## 🚀 Getting Started (For Developers)
+
+If you want to clone and run the app locally:
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/TAMUNA-CHKOIDZE/Quiz-App.git
+cd Quiz-App
+```
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm start
+```
+
+---
+
+## 📦 Deployment
+
+This app is deployed using **GitHub Pages** via the `gh-pages` package.
+
+To deploy:
+
+```bash
+npm run deploy
+```
+
+---
+
+## 📁 Folder Structure
+
+```
+Quiz-App/
+├── /public
+├── /src
+│ ├── /components
+│ │ ├── Quiz.jsx
+│ │ └── Quiz.css
+│ ├── /constants
+│ │ └── quizData.js
+│ ├── App.js
+│ └── index.js
+├── package.json
+└── README.md
+```
+
+---
+
+## 🛠 Built With
+
+- React
+- JavaScript
+- gh-pages
+- react-confetti
+
+---
+
+## 📄 License
+
+This project is open source and free to use.
+
+```
+
