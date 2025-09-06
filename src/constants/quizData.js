@@ -1,0 +1,42 @@
+export const quizData = [
+  {
+    question: "What color is grass?",
+    option1: "Red",
+    option2: "Blue",
+    option3: "Green",
+    option4: "White",
+    answer: 3,
+  },
+  {
+    question: "What is 2 + 2?",
+    option1: "3",
+    option2: "4",
+    option3: "5",
+    option4: "6",
+    answer: 2,
+  },
+  {
+    question: "Which one is a domestic animal?",
+    option1: "Tiger",
+    option2: "Dog",
+    option3: "Wolf",
+    option4: "Dolphin",
+    answer: 2,
+  },
+  {
+    question: "Where does the sun rise?",
+    option1: "North",
+    option2: "West",
+    option3: "East",
+    option4: "South",
+    answer: 3,
+  },
+  {
+    question: "How many legs does a spider have?",
+    option1: "6",
+    option2: "8",
+    option3: "4",
+    option4: "10",
+    answer: 2,
+  },
+];
