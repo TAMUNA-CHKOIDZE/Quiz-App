@@ -1,8 +1,3 @@
-## ✅ სტანდარტული და მარტივი `README.md` სტრუქტურა (შენი Quiz App-ისთვის)
-
-აქ არის მინიმალისტური და ამავდროულად პროფესიული ვერსია:
-
-````markdown
 # Quiz App 🎯
 
 A simple quiz application built with **React**.  
@@ -38,6 +33,7 @@ If you want to clone and run the app locally:
 git clone https://github.com/TAMUNA-CHKOIDZE/Quiz-App.git
 cd Quiz-App
 ```
+
 ````
 
 ### 2. Install dependencies
@@ -100,3 +96,4 @@ This project is open source and free to use.
 
 ```
 
+````
