@@ -78,9 +78,9 @@ function Quiz() {
           )}
           {score !== quizData.length && <h2>Quiz Completed!</h2>}
           <p>
-            Your Score: {score} / {quizData.length}
+            Your Score: <span>{score}</span>/{quizData.length}
           </p>
-          <button onClick={reset}>Reset</button>
+          <button onClick={reset}>Take New Quiz</button>
         </div>
       ) : (
         <div>

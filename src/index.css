@@ -12,9 +12,19 @@ body {
   height: 100vh;
   overflow-x: hidden;
   background-image: linear-gradient(#D8C7FF, #19006C);
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: "Poppins", sans-serif;
+}
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media (max-width: 800px) {
+  body {
+    padding-inline: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-inline: 20px;
+  }
 }
